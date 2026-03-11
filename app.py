@@ -7,9 +7,11 @@ app = Flask(__name__)
 def home():
     return "Welcome to the common app!"
 
-@app.route("/suchinthana")
-def suchinthana():
-    return "Hello from Suchinthana!"
+@app.route("/nimsara")
+def nimsara():
+    return "Hello from Nimsara!"
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+    
