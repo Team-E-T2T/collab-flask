@@ -11,6 +11,9 @@ def home():
 def suchinthana():
     return "Hello from Suchinthana!"
 
+@app.route("/hello-atheefa")
+def hello_atheefa():
+    return "Hello from Atheefa!"
 @app.route("/hajistha")
 def hajistha():
     return "Hello from Hajistha!"
@@ -18,6 +21,9 @@ def hajistha():
 @app.route("/zeenath-hana")
 def zeenath_hana():
     return "Hello from Zeenath hana!" 
+@app.route("/hello/mahathir")
+def hello_mahathir():
+    return "Hello from Mahathir"
 
 if __name__ == "__main__":
     app.run(debug=True)
