@@ -17,7 +17,7 @@ def hajistha():
 
 @app.route("/hello/mahathir")
 def hello_mahathir():
-    return "Hello from Mahathir"
+    return "Hello Mahathir"
 
 if __name__ == "__main__":
     app.run(debug=True)
