@@ -15,5 +15,9 @@ def suchinthana():
 def hajistha():
     return "Hello from Hajistha!"
 
+@app.route("/zeenath-hana")
+def zeenath_hana():
+    return "Hello from Zeenath hana!" 
+
 if __name__ == "__main__":
     app.run(debug=True)
