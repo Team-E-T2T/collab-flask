@@ -11,6 +11,9 @@ def home():
 def suchinthana():
     return "Hello from Suchinthana!"
 
+@app.route("/hello-atheefa")
+def hello_atheefa():
+    return "Hello from Atheefa!"
 @app.route("/hajistha")
 def hajistha():
     return "Hello from Hajistha!"
