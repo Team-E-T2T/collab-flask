@@ -11,5 +11,9 @@ def home():
 def suchinthana():
     return "Hello from Suchinthana!"
 
+@app.route("/hello-atheefa")
+def hello_atheefa():
+    return "Hello from Atheefa!"
+
 if __name__ == "__main__":
     app.run(debug=True)
