@@ -18,6 +18,9 @@ def hello_atheefa():
 def hajistha():
     return "Hello from Hajistha!"
 
+@app.route("/zeenath-hana")
+def zeenath_hana():
+    return "Hello from Zeenath hana!" 
 @app.route("/hello/mahathir")
 def hello_mahathir():
     return "Hello from Mahathir"
