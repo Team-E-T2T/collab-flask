@@ -5,11 +5,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to the common app!"
-
-@app.route("/suchinthana")
-def suchinthana():
-    return "Hello from Suchinthana!"
+    return "Welcome to the Flask App!"
+@app.route("/nimsara")
+def nimsara():
+    return "Hello from Nimsara!"
 
 @app.route("/hello-atheefa")
 def hello_atheefa():
@@ -31,3 +30,5 @@ def rosa():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+    
