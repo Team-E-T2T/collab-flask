@@ -25,5 +25,9 @@ def zeenath_hana():
 def hello_mahathir():
     return "Hello from Mahathir"
 
+@app.route("/Rosa")
+def rosa():
+    return "Hello from Rosa!"
+
 if __name__ == "__main__":
     app.run(debug=True)
